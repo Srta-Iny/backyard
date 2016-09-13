@@ -1,15 +1,16 @@
-@media only screen and (min-width: 535px) and (max-width: 824px){
-	[class*="col-"] {
-		width: 75%;
-	}
+@media (min-width: 200px) and (max-width: 535px){
 	.col-6{
 		width: 100%;
 	}
 	nav{
 		text-align: left;
 	}
+	#principal h1{
+		width: 50%;
+		font-size: 3em;
+	}
 	#contacto{
-		width: 80%;
-		margin-top: 2%;
+		width: 50%;
+		margin: 3% 0 0 0;
 	}
 }
